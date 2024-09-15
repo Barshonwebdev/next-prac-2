@@ -1,11 +1,11 @@
 import React from 'react';
 
-const AboutPage = () => {
+const Login = () => {
     return (
         <div className='h-screen bg-black text-white'>
-            about page
+            login page
         </div>
     );
 };
 
-export default AboutPage;
+export default Login;

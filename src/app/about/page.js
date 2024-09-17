@@ -8,7 +8,7 @@ const AboutPage = () => {
             <div className='space-x-4 text-blue-600'>
                 <Link href={'/about/career'}>Career</Link>
                 <Link href={'/about/jobs'}>Jobs</Link>
-                <Link href={'/about/jobs/specific'}>Specific</Link>
+                <Link href={'/about/jobs/specific'}>Specific</Link> 
             </div>
         </div>
     );

@@ -23,6 +23,10 @@ const Navbar = () => {
             title:'Contacts',
             path:'/contacts'
         },
+        {
+            title:'Blogs',
+            path:'/blogs'
+        },
     ]
     return (
         <div className='bg-red-500 py-5 flex justify-between'>

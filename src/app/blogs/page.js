@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const blogs = () => {
@@ -39,7 +40,7 @@ const blogs = () => {
                         <h1 className='text-2xl'>Blog Entry: {blog.id}</h1>
                         <h1 className='text-xl'>Blog Title: {blog.title}</h1>
                         <p className='text-lg mt-5'>{blog.description}</p>
-                        <button className='bg-white text-black p-3 rounded-lg mt-3'>Details</button>
+                        <button className='bg-white text-black p-3 rounded-lg mt-3'><Link href={`/blogs/${blog.id}`}>Details</Link></button>
                     </div>)
                 }
             </div>

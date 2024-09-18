@@ -33,7 +33,7 @@ const Details = ({params}) => {
       const {title,description}=allBlogs.find((blog)=>blog.id===params.article);
     return (
         <div className='h-screen bg-black text-white space-y-3'>
-            <h1 className='text-center text-3xl'>Blog Details</h1>
+            <h1 className='text-center text-3xl'>Blog Details</h1> 
             <h1 className='text-2xl'>{title}</h1>
             <p className='text-lg'>{description}</p>
         </div>

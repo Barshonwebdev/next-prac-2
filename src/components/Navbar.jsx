@@ -30,7 +30,7 @@ const Navbar = () => {
         },
     ]
     if (pathName.includes('dashboard'))
-        return <div className='bg-green-500 text-white'>Header</div>
+        return <div className='bg-green-500 text-white'>Header</div> 
     return (
         <div className='bg-red-500 py-5 flex justify-between'>
             <ul className='flex justify-center space-x-4 text-white text-2xl'>

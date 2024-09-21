@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 
 const blogs = () => {
+  // console.log(name); for error testing
 
     const allBlogs=[
         {

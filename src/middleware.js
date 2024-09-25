@@ -5,5 +5,5 @@ export const middleware=(request)=>{
 }
 
 export const config={
-    matcher: '/contacts' 
+     matcher: '/contacts' 
 }
